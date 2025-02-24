@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  /* background-color: #fd2c2a; */
+  background-color: black;
+}
+
+@theme {
+  --font-hevetica-now-display: "helvetica-now-display", sans-serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: "helvetica-now-display";
+    src: url("/fonts/HelveticaNowDisplay-Regular.woff2") format("woff2");
+  }
+}
