@@ -2,7 +2,8 @@
 
 body {
   /* background-color: #fd2c2a; */
-  background-color: black;
+  background-color: #fffafa;
+  font-family: var(--font-hevetica-now-display);
 }
 
 @theme {
